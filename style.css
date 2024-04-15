@@ -12,7 +12,7 @@ body {
 }
 
 .body-home {
-    background-image: url('images/background-01-port.png');
+    background-image: url('images/steakhouse%20background.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 .body-meals {
-    background-image: url('images/background-02-port.png');
+    background-image: url('images/background%202.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
 /*========== HEADER ==========*/
 
 .header {
-    background-color: #2196f3;
+    background-color: darkred;
     
     width: 100%;
     height: 50px;
@@ -139,6 +139,10 @@ body {
     width: 100%;
 }
 
+.recipe-details p {
+    text-align: center;
+}
+
 .recipe-details h1 {
     font-size: 25px;
     text-align: center;
@@ -154,7 +158,7 @@ body {
     margin-left: 10px;
 }
 
-.recipe-details-info {
+.menu-details-info {
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -164,17 +168,36 @@ body {
     display: inline-block;
 }
 
-.recipe-details-ingredients label {
+.recipe-details-extras label {
     line-height: 25px;
     margin-left: 10px;
 }
 
-.recipe-details-steps {
-    padding-top: 10px;
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
 }
 
-.recipe-details-steps ol {
-    padding-left: 28px;
+.button{
+      display : block;
+      background-color: gray;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+.recipe-details h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 30px;
 }
 
 /*========== RESPONSIVE LAYOUT ==========*/
@@ -218,10 +241,10 @@ body {
 
 @media only screen and (min/width: 720px) {
     .body-home {
-        background-image: url(images/background-01-land.png);
+        background-image: url(images/background%202.jpg);
     }
     
     .body-meals {
-        background-image: url(images/background-02-land.png);
+        background-image: url(images/background%202.jpg);
     }
 }
